@@ -14,7 +14,7 @@ export const ContactInfo = () => {
   const handlePhone = ()=>{window.location.href = `tel:${number}`}
 
   const handleInstagram = () => {
-    const instaUrl = "https://www.instagram.com/"; 
+    const instaUrl = "https://www.instagram.com/zap_space1997"; 
     window.open(instaUrl, "_blank");
   };
   return (

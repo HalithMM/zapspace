@@ -8,6 +8,7 @@ import ServiceImg7 from '../assets/Services/Office/wallpaper.png'
 import ServiceImg8 from '../assets/Services/Office/icons8-furniture-50.png'
 import ServiceImg9 from '../assets/Services/Office/review.png'
 import ServiceImg10 from '../assets/Services/Home/dining-table.png'
+import ServiceImg11 from "../assets/Services/Office/wallpaperpainting.png"
 
 
 //Project section:
@@ -34,6 +35,7 @@ import projectOfficeImg3 from "../assets/Gallery/Office/office Cabin.jpg"
 import projectOfficeImg4 from "../assets/Gallery/Office/cabin.jpg"
 import projectOfficeImg5 from "../assets/Gallery/Office/MeetingRoom.jpg"
 import projectOfficeImg6 from "../assets/Gallery/Office/GroupMeeting.jpg"
+import { Description } from '@mui/icons-material'
 
 
 
@@ -66,6 +68,8 @@ export const OfficeImg = [
   {img:ServiceImg9 ,Description:"Restarunts"},
   {img:ServiceImg7 ,Description:"wall paneling" },
   {img:ServiceImg8 ,Description:"Custom furnitures" },
+  {img:ServiceImg11,Description:"Wallpaper"}
+
  
 ]
 

@@ -217,8 +217,7 @@ export const Servicepage = () => {
           <div className="bg-white rounded-2xl overflow-hidden shadow-md">
             <div className="p-6 sm:p-8">
               <p className="text-gray-600 leading-relaxed">
-                We proudly serve <span className="font-semibold text-gray-800">Chennai, Trichy, Madurai, Coimbatore</span>, and surrounding areas across <span className="font-semibold text-gray-800">TamilNadu, Kerala and Karnataka</span>. At Zapspace, our mission is to bring world-class interior design solutions to every home and workspace in South Tamil Nadu. From the bustling streets of Trichy to the cultural richness of Madurai, and the serene beauty of Pudukkottai, our team understands the local lifestyle, preferences, and architecture.
-              </p>
+                We proudly serve <span className="font-semibold text-gray-800">Chennai, Trichy, Madurai, Coimbatore</span>, and surrounding areas across <span className="font-semibold text-gray-800">TamilNadu, Kerala and Karnataka</span>. At Zapspace, our mission is to bring world-class interior design solutions to every home and workspace in Tamil Nadu.</p>
               <p className="text-gray-600 leading-relaxed mt-4">
                 Whether you're renovating your ancestral home in <span className="font-semibold">Karaikudi</span>, modernizing your apartment in <span className="font-semibold">Chennai</span>, or building your dream office in <span className="font-semibold">Coimbatore</span>, we bring personalized design expertise tailored to your vision. We don't just design spaces—we transform lifestyles.
               </p>

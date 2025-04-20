@@ -48,7 +48,7 @@ export const App = () => {
                <Navigation />
                <Routes>
                  <Route path="/" element={
-                   <>  
+                   <> 
                     <LazyLoad><ContactInfo/></LazyLoad> 
                     <LazyLoad><Landing /></LazyLoad> 
                     <LazyLoad><Overview /></LazyLoad>  

@@ -3,30 +3,24 @@ import { motion } from "framer-motion";
 
 const teamMembers = [
   {
-    name: "John Doe",
-    designation: "CEO",
+    name: "Ar.John praveen",
+    designation: "Founder",
     description:
-      "Visionary leader with 15+ years of experience in business strategy.",
+      "Blending creativity with functionality, our interior designer transforms spaces into timeless reflections of style and purpose. With a keen eye for detail and a deep understanding of color, form, and texture, they curate environments that are both beautiful and livable.From residential to commercial projects, every design begins with a story — your story. Through close collaboration, thoughtful planning, and an appreciation for both aesthetics and practicality, our designer creates interiors that feel effortless, intentional, and uniquely yours.Whether it's a modern minimalist space, a cozy retreat, or a bold statement interior, the result is always the same: design that elevates everyday living.",
     image: "https://via.placeholder.com/300",
   },
   {
-    name: "Jane Smith",
-    designation: "CTO",
+    name: "Ar.Akash Govindasamy ",
+    designation: "Architect",
     description:
-      "Expert in tech innovation, building scalable digital solutions.",
+      "Akash is a passionate and innovative architect dedicated to crafting spaces that blend functionality, aesthetics, and sustainability. With 3 years of experience in the design and construction industries, Akash specializes in Residential, Commercial and Institutional spaces, Creating timeless structures that inspire and serve their communities.Guided by a philosophy that embraces both modernity and tradition, Architect approaches each project with a deep understanding of client needs, environmental impact, and the cultural context of the space. Whether working on large-scale urban developments, custom homes, or interiors, the goal is always to create environments that enhance the human experience.",
     image: "https://via.placeholder.com/300",
   },
   {
-    name: "Emily Johnson",
-    designation: "Lead Designer",
+    name: "Maha Kannan",
+    designation: "Designer",
     description:
-      "Creative mind behind stunning interfaces and user experiences.",
-    image: "https://via.placeholder.com/300",
-  },
-  {
-    name: "Michael Brown",
-    designation: "Marketing Head",
-    description: "Strategist driving growth through compelling campaigns.",
+      "Our designer brings ideas to life through thoughtful, impactful design. With a strong eye for detail and a passion for user-centered solutions, they craft visuals that not only look great but also function seamlessly across digital platforms. From websites and branding to digital campaigns and UI/UX, the designer ensures every element aligns with the brand’s vision and communicates clearly with its audience. Their approach combines aesthetics with strategy—creating experiences that are both beautiful and purposeful..",
     image: "https://via.placeholder.com/300",
   },
 ];
@@ -51,7 +45,7 @@ const TeamSection = () => {
         <h2 className="text-4xl font-bold mb-14 text-gray-800">
           Meet Our Team
         </h2>
-        <div className=" grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <div className=" grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}
@@ -72,10 +66,12 @@ const TeamSection = () => {
               <h3 className="text-xl font-semibold text-gray-800">
                 {member.name}
               </h3>
-              <p className="text-indigo-600 font-medium">
+              <p className="text-indigo-600 font-medium ">
                 {member.designation}
               </p>
-              <p className="text-gray-600 text-sm mt-2">{member.description}</p>
+              <p className="text-gray-600 text-sm mt-2 text-justify">
+                {member.description}
+              </p>
             </motion.div>
           ))}
         </div>

@@ -8,7 +8,7 @@ import {
   Work as ServicesIcon,
   PhotoAlbum as GalleryIcon
 } from '@mui/icons-material';
-import Logo from "../assets/Logo/Logo.jpeg";
+import Logo from "../assets/Logo/Logo.jpg";
 
 export const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -51,9 +51,8 @@ export const Navigation = () => {
   };
 
   return (
-    <>
-      {/* Logo for Mobile - Top Left */}
-      {/* <motion.div
+    <> 
+      <motion.div
         className="fixed top-4 left-4 z-40 md:hidden"
         initial={{ opacity: 0, y: -20 }}
         animate={{ 
@@ -68,7 +67,7 @@ export const Navigation = () => {
           className="h-10 w-auto cursor-pointer" 
           onClick={() => handleNavigation('/')}
         />
-      </motion.div> */}
+      </motion.div>
 
       {/* Desktop Header Navigation - Hidden on mobile */}
       <motion.header

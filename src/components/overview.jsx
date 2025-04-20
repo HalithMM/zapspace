@@ -123,24 +123,6 @@ export const Overview = () => {
             </div>
           </motion.div>
         </motion.div>
-
-        <motion.div 
-          className="w-full lg:w-1/2 relative"
-          variants={itemVariants}
-        >
-          <div className="relative overflow-hidden rounded-2xl lg:rounded-3xl shadow-2xl aspect-video">
-            <motion.img 
-              className="w-full h-full object-cover"
-              src={overview} 
-              alt="Design services showcase"
-              loading="lazy"
-              initial={{ scale: 1.1 }}
-              animate={{ scale: 1 }}
-              transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
-          </div>
-        </motion.div>
       </div>
     </motion.div>
   );
