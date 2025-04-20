@@ -22,8 +22,8 @@ import { ContactInfo } from './components/Info';
 import { Testimonials } from './components/Testimonials';
 import Footer from './components/footer';
 import { Demo } from './components/Demo';
-import { Projects } from './components/Projects'; 
-import Teamsection from './components/TeamSection';
+import { Projects } from './components/Projects';  
+import TeamSection from './components/TeamSection';
  
 
 export const App = () => { 
@@ -54,7 +54,7 @@ export const App = () => {
                     <LazyLoad><Overview /></LazyLoad>  
                     <LazyLoad><Service /></LazyLoad>  
                     <LazyLoad><Demo/></LazyLoad> 
-                    <LazyLoad><Teamsection/></LazyLoad>
+                    <LazyLoad><TeamSection/></LazyLoad>
                     <LazyLoad><Testimonials/></LazyLoad>
                     <LazyLoad><Faq/></LazyLoad>   
                    </>
