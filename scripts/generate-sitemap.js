@@ -1,26 +1,20 @@
-const fs = require('fs');
-const { SitemapStream, streamToPromise } = require('sitemap');
-const { createWriteStream } = require('fs');
+import { SitemapStream, streamToPromise } from 'sitemap';
+import { createWriteStream } from 'node:fs';
+import { writeFile } from 'node:fs/promises';
+import { Readable } from 'node:stream';
 
-const sitemap = new SitemapStream({ hostname: 'https://zapsapce.in' });
-const writeStream = createWriteStream('./dist/sitemap.xml');
+const hostname = 'https://zapsapce.in';
 
-const staticRoutes = ['/', '/about', '/services', '/gallery'];
+const routes = ['/', '/about', '/services', '/gallery'];
 
-// Add static routes
-staticRoutes.forEach((url) => {
-  sitemap.write({ url, changefreq: 'monthly', priority: 0.8 });
-});
+// Optionally include dynamic project pages
+const projectSlugs = ['interior-1', 'kitchen-makeover', 'office-space'];
+const allRoutes = [...routes, ...projectSlugs.map(slug => `/projects/${slug}`)];
 
-// Optional: Add known dynamic project pages
-const projectIds = ['interior-1', 'kitchen-makeover', 'office-space']; // Replace with your real slugs
-projectIds.forEach((id) => {
-  sitemap.write({ url: `/projects/${id}`, changefreq: 'monthly', priority: 0.6 });
-});
+const sitemapStream = new SitemapStream({ hostname });
+const xmlStream = Readable.from(allRoutes.map(url => ({ url }))).pipe(sitemapStream);
 
-sitemap.end();
+const xml = await streamToPromise(xmlStream).then(data => data.toString());
 
-streamToPromise(sitemap).then((data) => {
-  fs.writeFileSync('./dist/sitemap.xml', data.toString());
-  console.log('✅ Sitemap successfully generated at dist/sitemap.xml');
-});
+await writeFile('./dist/sitemap.xml', xml);
+console.log('✅ Sitemap generated at dist/sitemap.xml');
