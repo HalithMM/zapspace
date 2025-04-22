@@ -13,14 +13,14 @@ const teamMembers = [
     name: "Ar.Akash Govindasamy ",
     designation: "Architect",
     description:
-      "Akash is a passionate and innovative architect dedicated to crafting spaces that blend functionality, aesthetics, and sustainability. With 3 years of experience in the design and construction industries, Akash specializes in Residential, Commercial and Institutional spaces, Creating timeless structures that inspire and serve their communities.Guided by a philosophy that embraces both modernity and tradition, Architect approaches each project with a deep understanding of client needs, environmental impact, and the cultural context of the space. Whether working on large-scale urban developments, custom homes, or interiors, the goal is always to create environments that enhance the human experience.",
+      "A passionate and innovative architect dedicated to crafting spaces that blend functionality, aesthetics, and sustainability. With 3 years of experience in the design and construction industries, Akash specializes in Residential, Commercial and Institutional spaces, Creating timeless structures that inspire and serve their communities.Guided by a philosophy that embraces both modernity and tradition, Architect approaches each project with a deep understanding of client needs, environmental impact, and the cultural context of the space. Whether working on large-scale urban developments, custom homes, or interiors, the goal is always to create environments that enhance the human experience.",
     image: "https://via.placeholder.com/300",
   },
   {
     name: "Maha Kannan",
     designation: "Designer",
     description:
-      "Our designer brings ideas to life through thoughtful, impactful design. With a strong eye for detail and a passion for user-centered solutions, they craft visuals that not only look great but also function seamlessly across digital platforms. From websites and branding to digital campaigns and UI/UX, the designer ensures every element aligns with the brand’s vision and communicates clearly with its audience. Their approach combines aesthetics with strategy—creating experiences that are both beautiful and purposeful..",
+      "Our designer brings ideas to life through thoughtful, impactful design. With a strong eye for detail and a passion for user-centered solutions, they craft visuals that not only look great but also function seamlessly across digital platforms. From websites and branding to digital campaigns, the designer ensures every element aligns with the brand’s vision and communicates clearly with its audience. Their approach combines aesthetics with strategy—creating experiences that are both beautiful and purposeful..",
     image: "https://via.placeholder.com/300",
   },
 ];
