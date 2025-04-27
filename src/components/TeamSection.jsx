@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import Kannan from '../assets/Team/Kannan.jpg'
 const teamMembers = [
   {
     name: "Ar.John praveen",
@@ -21,7 +21,7 @@ const teamMembers = [
     designation: "Designer",
     description:
       "Our designer brings ideas to life through thoughtful, impactful design. With a strong eye for detail and a passion for user-centered solutions, they craft visuals that not only look great but also function seamlessly across digital platforms. From websites and branding to digital campaigns and UI/UX, the designer ensures every element aligns with the brand’s vision and communicates clearly with its audience. Their approach combines aesthetics with strategy—creating experiences that are both beautiful and purposeful..",
-    image: "https://via.placeholder.com/300",
+    image: Kannan,
   },
 ];
 

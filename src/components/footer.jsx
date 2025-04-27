@@ -5,9 +5,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const address =
     "Trichy-Dindugal highways, Chidhambarathanpatti, Manaparai - 621306";
-  const mapsUrl = `https://www.google.com/maps?q=${encodeURIComponent(
-    address
-  )}`;
+    const mapsUrl = "https://maps.app.goo.gl/iPqfsWZZJVaBJFYEA"
   const footerVariants = {
     hidden: { opacity: 0 },
     visible: {

@@ -7,14 +7,10 @@ import { Gallery } from './components/Gallery';
 import { LoadingScreen } from './components/LoadingScreen';
 import { AnimatePresence } from 'framer-motion';
 import { Navigation } from './components/Navigation';
- 
 import { Overview } from './components/overview';
- 
- 
-// import { Consultation } from './components/Consultation ';
 import About from './components/About';
 import { Servicepage } from './components/Servicepage';
-import { Landing } from './components/landing';
+ 
 import { Faq } from './components/Faq';
 import { ScrollToTop } from './components/ScrollToTop';
 import GallerPage from './components/GallerPage';
@@ -24,6 +20,7 @@ import Footer from './components/footer';
 import { Demo } from './components/Demo';
 import { Projects } from './components/Projects';  
 import TeamSection from './components/TeamSection';
+import { Landing } from './components/Landing';
  
 
 export const App = () => { 
@@ -50,7 +47,7 @@ export const App = () => {
                  <Route path="/" element={
                    <> 
                     <LazyLoad><ContactInfo/></LazyLoad> 
-                    <LazyLoad><Landing /></LazyLoad> 
+                    <LazyLoad><Landing/></LazyLoad> 
                     <LazyLoad><Overview /></LazyLoad>  
                     <LazyLoad><Service /></LazyLoad>  
                     <LazyLoad><Demo/></LazyLoad> 

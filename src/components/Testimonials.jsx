@@ -64,7 +64,7 @@ export const Testimonials = () => {
     {
       title: "Modern Living Room Makeover",
       content:
-        "The transformation of our living room left us speechless! Zapspace brought in such elegant touches while keeping everything warm and cozy...",
+        "Zapspace transformed our living room beautifully, adding elegant touches and maintaining a warm, cozy atmosphere that amazed us.",
       author: "Arjun & Meera, Trichy, Tamil Nadu",
     },
     {
@@ -76,13 +76,13 @@ export const Testimonials = () => {
     {
       title: "Luxury Villa Interiors",
       content:
-        "Designing a large home can be overwhelming, but Zapspace made it a smooth and enjoyable experience...",
+        "Designing a large home felt overwhelming at first, but Zapspace made the entire process smooth and truly enjoyable.",
       author: "Mr.Krishnan, Trichy, Tamil Nadu",
     },
     {
       title: "Office Space Interior",
       content:
-        "We wanted our office to reflect both creativity and professionalism — and Zapspace nailed it!",
+        "We envisioned an office that showcased creativity and professionalism, and Zapspace perfectly brought that vision to life!",
       author: "Ravi Varun, Creative Director, Trichy",
     },
   ];
