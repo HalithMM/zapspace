@@ -20,13 +20,8 @@ const teamMembers = [
     name: "Maha Kannan",
     designation: "Designer",
     description:
-<<<<<<< HEAD
       "Our designer brings ideas to life through thoughtful, impactful design. With a strong eye for detail and a passion for user-centered solutions, they craft visuals that not only look great but also function seamlessly across digital platforms. From websites and branding to digital campaigns and UI/UX, the designer ensures every element aligns with the brand’s vision and communicates clearly with its audience. Their approach combines aesthetics with strategy—creating experiences that are both beautiful and purposeful..",
     image: Kannan,
-=======
-      "Our designer brings ideas to life through thoughtful, impactful design. With a strong eye for detail and a passion for user-centered solutions, they craft visuals that not only look great but also function seamlessly across digital platforms. From websites and branding to digital campaigns, the designer ensures every element aligns with the brand’s vision and communicates clearly with its audience. Their approach combines aesthetics with strategy—creating experiences that are both beautiful and purposeful..",
-    image: "https://via.placeholder.com/300",
->>>>>>> dc101dcecad9a30fa0d32302862cd72598630fe0
   },
 ];
 
