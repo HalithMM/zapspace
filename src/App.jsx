@@ -19,9 +19,8 @@ import { Testimonials } from './components/Testimonials';
 import Footer from './components/footer';
 import { Demo } from './components/Demo';
 import { Projects } from './components/Projects';  
-import TeamSection from './components/TeamSection';
-import { Landing } from './components/Landing';
- 
+import TeamSection from './components/TeamSection'; 
+import LandingScreen from './components/LandingScreen';
 
 export const App = () => { 
    const [isLoading, setIsLoading] = useState(true); 
@@ -47,7 +46,7 @@ export const App = () => {
                  <Route path="/" element={
                    <> 
                     <LazyLoad><ContactInfo/></LazyLoad> 
-                    <LazyLoad><Landing/></LazyLoad> 
+                    <LazyLoad><LandingScreen/> </LazyLoad> 
                     <LazyLoad><Overview /></LazyLoad>  
                     <LazyLoad><Service /></LazyLoad>  
                     <LazyLoad><Demo/></LazyLoad> 

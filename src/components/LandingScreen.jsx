@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import LandinImg1 from "../assets/landing/img1.jpg";
 import LandingImg2 from "../assets/landing/img2.jpg";
 import LandingImg3 from "../assets/landing/img3.jpg";
-export const Landing = () => {
+ const LandingScreen = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loaded, setLoaded] = useState(false);
   
@@ -90,4 +90,8 @@ export const Landing = () => {
 </section>
 
   );
+
+
 };
+
+export default LandingScreen
